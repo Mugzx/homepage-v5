@@ -3,68 +3,46 @@ import type { CardProps } from '~/components/partial/Card.vue'
 import { ZLink } from '#components'
 
 useHead({ title: '站点' })
-definePageMeta({ headerText: '一些网站' })
+definePageMeta({ headerText: '一些分享' })
 
 const toolSites: Array<CardProps> = [
     {
-        name: 'CO导航',
-        nameAlt: 'xupt-nav',
+        name: 'PiliPlus',
+        nameAlt: 'bggRGjQaUbCoE',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://cooo.site' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xupt-wiki/xupt-nav' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
         ],
-        desc: '为西安邮电大学学生提供网址导航服务，于2023年2月7日开始运营，是“更适合西邮宝宝体质的网址导航”。',
+        desc: '开源的BiliBili第三方客户端，由Flutter开发，使用Material You设计语言。',
     },
     {
-        name: '考试时钟',
-        nameAlt: 'ExamClock',
+        name: 'Stratum',
+        nameAlt: 'Authenticator Pro',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://exam.thisis.host' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/L33Z22L11/ExamClock' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://stratumauth.com/' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/stratumauth/app' },
         ],
-        desc: '用于宝鸡中学校内考试，可以在大屏上展示科目信息、起止时间、考试进度，支持切换年级、文理科，于2021年4月1日上线并投入使用。',
+        desc: '开源的双因素验证（2FA）应用，使用Material You设计语言。',
     },
     {
-        name: '西邮Wiki',
-        nameAlt: 'xupt-wiki',
+        name: '中文网字计划',
+        nameAlt: 'chinese-font',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://wiki.cooo.site' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xupt-wiki/xupt-wiki' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://chinese-font.netlify.app/zh-cn' },
+            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/KonghaYao/chinese-free-web-font-storage' },
         ],
-        desc: '西安邮电大学第三方公益校园生活百科，于2024年6月30立项。本人于2024年7月30日使用VitePress搭建，持续更新中。',
-    },
-    {
-        name: '西邮Linux兴趣小组培养计划',
-        nameAlt: 'Plan',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://plan.xiyoulinux.com' },
-            { icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/xiyou-linuxer/Plan' },
-        ],
-        desc: '西邮Linux兴趣小组的培养计划，于2021年11月4日开源。本人于2024年3月20日使用MkDocs为此Plan构建网站，于2025年2月24日使用Nextra重构。',
+        desc: '免费的中文字体公益 CDN 服务，让中文字体在互联网世界起飞。来自枫落丰源的推荐。',
     },
 
 ]
 
 const orgSites: Array<CardProps> = [
     {
-        name: '西邮Linux兴趣小组',
-        nameAlt: 'Xiyou Linux Group',
+        name: '火蝾螈服务器',
+        nameAlt: 'Torch Server',
         buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://xiyoulinux.com' },
+            { icon: 'ph:planet-duotone', text: '访问', to: 'https://www.chengai77a6b.top/2025/03/27/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%8B%E7%BB%8D' },
         ],
-        desc: '西安邮电大学计算机学院2006年9月建立的一个兴趣小组。本人于2022年10月22日成为其中一员，于2024年3月16日使用VitePress重建官网。',
-    },
-    {
-        name: '野生技协',
-        nameAlt: 'TECHYES',
-        buttons: [
-            { icon: 'ph:planet-duotone', text: '访问', to: 'https://thisis.host' },
-        ],
-        desc: () => h('div', [
-            '宝鸡中学校内的一个自发性的技术协助组织、无门槛的技术交流群，旨在信息分享、交流与公开，于2020年7月20日对外开放，多个',
-            h(ZLink, { to: 'https://thisis.host/site' }, '二级域名'),
-            '为校友提供项目部署服务。官网于2021年8月8日建立，并于2024年2月3日升级为博客。',
-        ]),
+        desc: '由火蝾螈社团和成员们共同运行的服务器，目前已经更新了三代了。感兴趣的可以加入哦，我们欢迎大家前来游玩。',
     },
     {
         name: '邮立方',
@@ -102,11 +80,10 @@ const orgSites: Array<CardProps> = [
 </script>
 
 <template>
-    <ZTitle>工具类站点</ZTitle>
+    <ZTitle>自用推荐</ZTitle>
     <ZCardList :data-list="toolSites" />
-    <ZTitle>组织门户</ZTitle>
+    <ZTitle>MC广播站</ZTitle>
     <ZCardList :data-list="orgSites" />
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
