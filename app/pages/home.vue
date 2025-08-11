@@ -36,13 +36,13 @@ const appConfig = useAppConfig()
 	</ZField>
 	<ZField label="介绍">
 		<p>
-			<ZLink to="https://github.com/xiyou-linuxer">西邮 Linux 兴趣小组</ZLink>
-			成员，Windows 11 和 Arch Linux 用户。
+			<!-- 共青团员，但限于实践经验，并不成熟。 -->
+			对前后端感兴趣，在未来也许会想成为一名全栈开发。
 		</p>
 	</ZField>
 	<ZField label="近期活动">
 		<p>
-			学习 <mark>Vue</mark>，但还在学习原生基础…
+			学习 <mark>Vue</mark>，但还在学习原生基础。
 		</p>
 	</ZField>
 	<ZField label="关于主页">
@@ -52,7 +52,7 @@ const appConfig = useAppConfig()
 			个人主页。
 		</p>
 		<p>
-			欢迎使用、参考样式：<br>
+			主页样式参考：<br>
 			<ZBadge v-for="item in appConfig.fork" :key="item.link" v-bind="item" />
 		</p>
 	</ZField>
