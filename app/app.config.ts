@@ -18,42 +18,42 @@ export default defineAppConfig({
 	fork: [
 		{
 			img: 'https://image.m-c.top/?/images/2024/07/21/iyt3mhQCDe/b_a3f6e95501bcc4ce64c19c63a1211bcd.png',
-			link: 'https://oio.mckfs.com/',
+			link: 'https://oio.mckfs.com',
 			text: 'Oiolosse MC服',
 		},
 		{
 			img: 'https://api-space.tnxg.top/avatar?s=qq',
-			link: 'https://tnxg.top/',
+			link: 'https://tnxg.top',
 			text: '天翔TNXG',
 		},
 		{
 			img: 'https://ykc.im/icon.png',
-			link: 'https://ykc.im/',
+			link: 'https://ykc.im',
 			text: 'York Chou',
 		},
 		{
 			img: 'https://www.xxfer.cn/icon.png',
-			link: 'https://www.xxfer.cn/',
+			link: 'https://www.xxfer.cn',
 			text: '小李同学',
 		},
 		{
 			img: 'https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=2',
-			link: 'https://www.xlenco.top/',
+			link: 'https://www.xlenco.top',
 			text: 'Xlenco',
 		},
 		{
 			img: 'https://www.mugzx.top/icon.png',
-			link: 'https://www.mugzx.top/',
+			link: 'https://www.mugzx.top',
 			text: 'Mugzx',
 		},
 		{
 			img: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
-			link: 'https://www.kemiao.online/',
+			link: 'https://www.kemiao.online',
 			text: '克喵爱吃卤面',
 		},
 		{
 			img: 'https://q1.qlogo.cn/g?b=qq&nk=3310149631&s=2',
-			link: 'https://gr114.com/',
+			link: 'https://gr114.com',
 			text: 'GreenRoc',
 		},
 	],
@@ -62,18 +62,19 @@ export default defineAppConfig({
 		{
 			title: '',
 			items: [
-				{ icon: 'ph:house-duotone', text: '个人介绍', url: '/' },
-				{ icon: 'ph:pen-nib-duotone', text: '驻站笔记', url: '/article' },
+				{ icon: 'ph:house-duotone', text: '介绍', url: '/' },
+				{ icon: 'ph:pen-nib-duotone', text: '文章', url: '/article' },
 				// { icon: "ph:pen-nib-duotone", text: "文章", url: "https://blog.mugzx.top", external: true },
 				// { icon: 'ph:code-duotone', text: '项目', url: '/project' },
-				{ icon: 'ph:globe-duotone', text: '站点分享', url: '/site' },
-				{ icon: 'ph:files-duotone', text: '活动日志', url: '/log' },
+				{ icon: 'ph:globe-duotone', text: '站点', url: '/site' },
+				{ icon: 'ph:files-duotone', text: '日志', url: '/log' },
 			],
 		},
 		{
 			title: '社交',
 			items: [
-				{ icon: 'basil:qq-outline', text: 'MC交流电台', url: 'https://qm.qq.com/q/lbtoWDPpZu', external: true },
+				{ icon: 'basil:qq-outline', text: '交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu', external: true },
+				{ icon: 'ri:mail-line', text: 'me@mugzx.top', url: 'mailto:me@mugzx.top' },
 				{ icon: 'ph:github-logo-duotone', text: 'Github', url: 'https://github.com/mugzx', external: true },
 			],
 		},
