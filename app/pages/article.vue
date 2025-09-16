@@ -26,15 +26,15 @@ const articles = computed(() => data.value.slice(0, 11))
 </div>
 <div class="article-more">
 	<ZRawLink to="https://blog.mugzx.top">
-		<Icon name="ph:navigation-arrow-duotone" />
+		<Icon name="ri:navigation-line" />
 		<span>访问</span>
 	</ZRawLink>
 	<ZRawLink to="https://blog.mugzx.top/link">
-		<Icon name="ph:link-duotone" />
+		<Icon name="ri:link-m" />
 		<span>友链</span>
 	</ZRawLink>
 	<ZRawLink to="https://blog.mugzx.top/archive">
-		<Icon name="ph:archive-duotone" />
+		<Icon name="ri:archive-line" />
 		<span>归档</span>
 	</ZRawLink>
 </div>

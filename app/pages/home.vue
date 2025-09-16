@@ -22,13 +22,13 @@ const appConfig = useAppConfig()
 		</p>
 		<div>
 			<ZButton
-				icon="ph:files-duotone"
+				icon="ri:file-list-3-line"
 				to="https://blog.mugzx.top"
 				text="博客"
 				primary
 			/>
 			<ZButton
-				icon="ph:github-logo-duotone"
+				icon="ri:github-line"
 				to="https://github.com/mugzx"
 				text="GitHub"
 			/>
@@ -36,20 +36,19 @@ const appConfig = useAppConfig()
 	</ZField>
 	<ZField label="介绍">
 		<p>
-			<!-- 共青团员，但限于实践经验，并不成熟。 -->
-			对前后端感兴趣，在未来也许会想成为一名全栈开发。
+			高中生，热爱马哲与编程，喜欢不断折腾。
 		</p>
 	</ZField>
 	<ZField label="近期活动">
 		<p>
-			学习 <mark>Vue</mark>，但还在学习原生基础。
+			菜就多练。
 		</p>
 	</ZField>
 	<ZField label="关于主页">
 		<p>
 			感谢大佬们开源的
-			<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ph:github-logo-duotone">L33Z22L11/homepage-v5</ZLink>
-			个人主页。
+			<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ri:github-line">L33Z22L11/homepage-v5</ZLink>
+			。
 		</p>
 		<p>
 			主页样式参考：<br>

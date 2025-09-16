@@ -9,10 +9,9 @@ import homepageConfig from '~~/homepage.config'
 export default defineAppConfig({
 	...homepageConfig,
 
-	footer: {
-		copyright: `© ${new Date().getFullYear()} Mugzx`,
-		message: '',
-	},
+	footer: [
+		`© ${new Date().getFullYear()} Mugzx`,
+	],
 
 	// 用于在主页展示下游引用
 	fork: [
@@ -42,11 +41,6 @@ export default defineAppConfig({
 			text: 'Xlenco',
 		},
 		{
-			img: 'https://www.mugzx.top/icon.png',
-			link: 'https://www.mugzx.top',
-			text: 'Mugzx',
-		},
-		{
 			img: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
 			link: 'https://www.kemiao.online',
 			text: '克喵爱吃卤面',
@@ -56,41 +50,44 @@ export default defineAppConfig({
 			link: 'https://gr114.com',
 			text: 'GreenRoc',
 		},
+		{
+			img: 'https://wsrv.nl/?url=github.com/scfcn.png%3fsize=92',
+			link: 'https://www.qxzhan.cn/',
+			text: '筱序二十',
+		},
 	],
 
 	nav: [
 		{
 			title: '',
 			items: [
-				{ icon: 'ph:house-duotone', text: '介绍', url: '/' },
-				{ icon: 'ph:pen-nib-duotone', text: '文章', url: '/article' },
-				// { icon: "ph:pen-nib-duotone", text: "文章", url: "https://blog.mugzx.top", external: true },
-				// { icon: 'ph:code-duotone', text: '项目', url: '/project' },
-				{ icon: 'ph:globe-duotone', text: '站点', url: '/site' },
-				{ icon: 'ph:files-duotone', text: '日志', url: '/log' },
+				{ icon: 'ri:id-card-line', text: '简介', url: '/' },
+				{ icon: 'ri:quill-pen-line', text: '文章', url: '/article' },
+				// { icon: 'ri:code-line', text: '项目', url: '/project' },
+				{ icon: 'ri:planet-line', text: '站点', url: '/site' },
+				{ icon: 'ri:history-line', text: '日志', url: '/log' },
 			],
 		},
 		{
 			title: '社交',
 			items: [
-				{ icon: 'basil:qq-outline', text: '交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu', external: true },
-				{ icon: 'ri:mail-line', text: 'me@mugzx.top', url: 'mailto:me@mugzx.top' },
-				{ icon: 'ph:github-logo-duotone', text: 'Github', url: 'https://github.com/mugzx', external: true },
+				{ icon: 'ri:qq-line', text: '交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
+				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/mugzx' },
 			],
 		},
 	] satisfies Nav,
 
 	themes: {
 		light: {
-			icon: 'ph:sun-duotone',
+			icon: 'ri:sun-line',
 			tip: '浅色模式',
 		},
 		system: {
-			icon: 'ph:monitor-duotone',
+			icon: 'ri:tv-2-line',
 			tip: '跟随系统',
 		},
 		dark: {
-			icon: 'ph:moon-duotone',
+			icon: 'ri:moon-line',
 			tip: '深色模式',
 		},
 	},
