@@ -15,7 +15,7 @@ const appConfig = useAppConfig()
 			<span style="font-size: 3rem;">👋</span>
 		</template>
 		<h1 style="font-size: 3rem;">
-			你好，<br>我是<mark>{{ appConfig.author.name }}</mark>
+			你好，<br>我是 <mark>{{ appConfig.author.name }}</mark>
 		</h1>
 		<p class="desc">
 			{{ appConfig.subtitle }}

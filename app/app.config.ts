@@ -52,7 +52,7 @@ export default defineAppConfig({
 		},
 		{
 			img: 'https://wsrv.nl/?url=github.com/scfcn.png%3fsize=92',
-			link: 'https://www.qxzhan.cn/',
+			link: 'https://www.qxzhan.cn',
 			text: '筱序二十',
 		},
 	],

@@ -12,7 +12,7 @@ const toolSites: Array<CardProps> = [
 		buttons: [
 			{ icon: 'ph:github-logo-duotone', text: 'GitHub', to: 'https://github.com/bggRGjQaUbCoE/PiliPlus' },
 		],
-		desc: '使用Flutter开发的BiliBili第三方客户端，对B站界面进行了深度精简与优化。',
+		desc: '使用 Flutter 开发的 BiliBili 第三方客户端，对B站界面进行了深度精简与优化。',
 	},
 	{
 		name: 'Stratum',
@@ -58,7 +58,7 @@ const orgSites: Array<CardProps> = [
 			{ icon: 'ph:planet-duotone', text: '访问', to: 'https://cop.cooo.site' },
 		],
 		desc: () => h('div', [
-			'西安邮电大学校内的Minecraft兴趣交流团体，',
+			'西安邮电大学校内的 Minecraft 兴趣交流团体，',
 			h(ZLink, { to: 'https://www.mualliance.cn' }, 'Minecraft高校联盟(MUA)'),
 			'成员，于2023年10月6日对外开放。官网于2024年1月1日建立，并于2024年2月10日升级为博客。',
 		]),
@@ -70,7 +70,7 @@ const orgSites: Array<CardProps> = [
 			{ icon: 'ph:planet-duotone', text: '访问', to: 'https://btr.thisis.host' },
 		],
 		desc: () => h('div', [
-			'宝鸡中学校内的Minecraft爱好群体，由',
+			'宝鸡中学校内的 Minecraft 爱好群体，由',
 			h(ZLink, { icon: 'ph:github-logo-duotone', to: 'https://github.com/guuguai' }, '古古怪怪GuuGuai'),
 			'于2020年7月17日建立。帮助文档网站于2022年6月12日建立，并于2024年2月21日迁移。',
 		]),
@@ -81,7 +81,7 @@ const orgSites: Array<CardProps> = [
 		buttons: [
 			{ icon: 'ph:planet-duotone', text: '访问', to: 'https://alienfamily.us.kg' },
 		],
-		desc: 'Hexo博客交流群“糖果屋”的群友组织的Minecraft服务器，于2024年7月18日建群。2025年2月2日创建了成员列表页面。',
+		desc: 'Hexo 博客交流群“糖果屋”的群友组织的 Minecraft 服务器，于2024年7月18日建群。2025年2月2日创建了成员列表页面。',
 	},
 ]
 </script>
