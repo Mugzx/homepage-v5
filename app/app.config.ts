@@ -76,7 +76,6 @@ export default defineAppConfig({
 		{
 			title: '社交',
 			items: [
-				{ icon: 'ri:qq-line', text: '交流电台', url: 'https://qm.qq.com/q/lZxfLjrbxu' },
 				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/mugzx' },
 			],
 		},
