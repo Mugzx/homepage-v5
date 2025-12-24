@@ -16,7 +16,8 @@ const homepageConfig = {
 	author,
 	language: 'zh-CN',
 	timezone: 'Asia/Shanghai',
-	favicon: 'https://www.gstatic.cn/android/keyboard/emojikitchen/20201001/u1f30d/u1f30d_u2601-ufe0f.png',
+	favicon: '/icon.png',
+	faviconOld: '/iconold.png',
 	url: 'https://www.mugzx.top',
 	blogAtom: 'https://blog.mugzx.top/atom.xml',
 }

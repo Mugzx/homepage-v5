@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { ZhiluIcon } from '#components'
+import { ZhiluIcon, ZhiluIconOld } from '#components'
 
 useHead({ title: '日志' })
 definePageMeta({ headerText: '互联网上的活动记录' })
 
 const timeline = {
 	'2077-05-24': '未完待续…',
-	'2025-08-07': h('span', ['重新设计站点图标：', h(ZhiluIcon)]),
+	'2025-08-07': h('span', ['重新设计站点图标：', h(ZhiluIconOld)]),
 	'2025-05-24': '16岁生日快乐！',
 	'2025-01-24': '博客重建',
 }
@@ -65,9 +65,9 @@ const timeline = {
 
 @container (min-width: $breakpoint-mobile) {
 	.timeline-item {
-		grid-column-gap: 1em;
 		grid-template-areas: "date content";
 		grid-template-columns: 1fr 1fr;
+		column-gap: 1em;
 
 		.timeline-item-date {
 			grid-area: date;

@@ -1,17 +1,15 @@
+<script setup lang="ts">
+const appConfig = useAppConfig()
+</script>
+
 <template>
-<svg
-	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 64" stroke="currentColor" height="1em" fill="none"
-	stroke-linecap="round" stroke-linejoin="round" stroke-width="8"
->
-	<!-- © Zhilu https://zhilu.site -->
-	<polyline points="4,4 36,4 5,45 37,45" />
-	<polyline points="43,19 12,60 44,60" />
-</svg>
+<NuxtImg class="icon" :src="appConfig.faviconOld" :alt="`${appConfig.title}的图标`" />
 </template>
 
 <!-- eslint-disable-next-line vue/block-lang -->
 <style scoped>
-svg {
+.icon {
+	width: 1.5em;
 	vertical-align: middle;
 }
 </style>
