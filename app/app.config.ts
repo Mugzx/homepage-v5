@@ -10,7 +10,7 @@ export default defineAppConfig({
 	...homepageConfig,
 
 	footer: [
-		`© ${new Date().getFullYear()} Mugzx`,
+		`© ${new Date().getFullYear()} ${homepageConfig.author.name}`,
 	],
 
 	// 用于在主页展示下游引用
@@ -57,7 +57,7 @@ export default defineAppConfig({
 		},
 		{
 			img: 'https://file.furrys.im/img/logo.webp',
-			link: 'https://www.furrys.im/',
+			link: 'https://www.furrys.im',
 			text: 'lpcay',
 		},
 	],
@@ -76,7 +76,7 @@ export default defineAppConfig({
 		{
 			title: '社交',
 			items: [
-				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/mugzx' },
+				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/Mugzx' },
 			],
 		},
 	] satisfies Nav,

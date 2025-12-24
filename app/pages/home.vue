@@ -29,7 +29,7 @@ const appConfig = useAppConfig()
 			/>
 			<ZButton
 				icon="ri:github-line"
-				to="https://github.com/mugzx"
+				to="https://github.com/Mugzx"
 				text="GitHub"
 			/>
 		</div>
@@ -39,16 +39,11 @@ const appConfig = useAppConfig()
 			高中生，热爱马哲与编程，喜欢不断折腾。
 		</p>
 	</ZField>
-	<ZField label="近期活动">
-		<p>
-			菜就多练。
-		</p>
-	</ZField>
 	<ZField label="关于主页">
 		<p>
-			感谢大佬们开源的
-			<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ri:github-line">L33Z22L11/homepage-v5</ZLink>
-			。
+			由 <ZBadge link="https://github.com/L33Z22L11">
+				L33Z22L11
+			</ZBadge> 开源在 <ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ri:github-line">L33Z22L11/homepage-v5</ZLink> 上。
 		</p>
 		<p>
 			主页样式参考：<br>
